@@ -1,0 +1,304 @@
+html{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	overflow-x: hidden;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	color: #2b2b2b;
+	font-family: 'Century Gothic', 'Segoe UI', Verdana,sans-serif
+}
+
+h1{
+	padding:0px;
+	margin:0px;
+}
+
+.hTenEighty{
+	height:800px;
+}
+
+.mainInfo{
+	background-color:#F9FFFF;
+}
+.mainHero{
+	font-family: "IBM Plex Mono";
+	background-color:lightcyan;
+}
+
+/**Sign Up Panel**/
+.month{
+	position: absolute;
+	margin-left:5px;
+	font-weight: bold;
+	font-size: 28px;
+	font-kerning:normal;
+}
+.day{
+	position: absolute;
+	margin-left:5px;
+	margin-top:25px;
+	font-weight: bold;
+	font-size: 28px;
+	font-kerning: normal;
+	letter-spacing: 1.8pt;
+}
+
+.year{
+	position: absolute;
+	right:5px;
+	bottom:30px;
+	font-weight: bold;
+	font-size: 40px;
+	font-kerning:normal;
+	
+}
+.yearTwo{
+	position: absolute;
+	right:5px;
+	bottom:-5px;
+	font-weight: bold;
+	font-size: 40px;
+	font-kerning:normal;
+}
+
+.tittle{
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 300px;
+	line-height: 80%;
+
+}
+.tittle2{
+	position: relative;
+	text-align: center;
+	line-height: 80%;
+	font-weight: bold;
+	font-size: 60px;
+	font-kerning:normal;
+}
+
+.description{
+	text-align: center;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signup{
+
+	Width:80px;
+	height:30px;
+	background-color:black;
+	color:white;
+	text-align: center;
+	line-height: 200%;
+}
+
+
+ul{
+	padding:0;
+	margin-top: 20px;
+	text-align: center;
+}
+li{
+	list-style-type:none;
+	display: inline;
+}
+
+.dots{
+  height: 8px;
+  width: 8px;
+  background-color: #2b2b2b;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.dots:hover{
+	background-color:red;
+}
+.dots:hover:after{
+	position: absolute;
+	margin-top:20px;
+	margin-left: -10px;
+	content: "About";
+	font-size: 20px;
+	color:red;
+	
+}
+
+
+
+
+/**Fade In**/
+#tl {
+	position:relative;
+	height:120px;
+	width:90px;
+	top:100px;
+	text-align: center;
+  }
+  
+  #tl img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	animation: move 2s;
+  }
+  
+  #tl img.top:hover {
+	opacity:0;
+  }
+
+
+
+/**Animation**/  
+@keyframes move{
+	0% {top:-60px;}
+	100%{top:0;}
+}
+
+
+/**
+   @keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+}
+ **/
+
+#tl:hover:before{
+	position: relative;
+	left: -100px;
+	margin-top:100px;
+	content: "Component";
+	font-size: 10px;
+	color:lightcoral;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+
+
+
+
+
+#ml {
+	position:relative;
+	height:130px;
+	width:90px;
+	top:120px;
+	text-align: center;
+  }
+  
+#ml img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	animation: move 2s;
+  }
+  
+  #ml img.top:hover {
+	opacity:0;
+  }
+
+
+/**
+   @keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+}
+ **/
+
+#ml:hover:before{
+	position: relative;
+	margin-top:100px;
+	left:-100px;
+	content: "Component";
+	font-size: 10px;
+	color:lightcoral;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+
+
+
+
+
+#lm {
+	position:relative;
+	height:130px;
+	width:90px;
+	top:120px;
+	text-align: center;
+  }
+  
+#lm img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	animation: move 2s;
+  }
+  
+  #lm img.top:hover {
+	opacity:0;
+  }
+
+
+/**
+   @keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+}
+ **/
+
+#lm:hover:before{
+	position: relative;
+	margin-top:100px;
+	left:-100px;
+	content: "Component";
+	font-size: 10px;
+	color:lightcoral;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+
+
+
+/***About Us**/
+
+.aboutUs{
+	color:#2b2b2b;
+	background-color:#F9FFFF;
+	padding-top:50px;;
+	margin-top:0;
+}
